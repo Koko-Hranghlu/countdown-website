@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* Design a webpage */
+body {
+  background: linear-gradient(to bottom right, #6119f6, #9738e7);
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 1.5rem;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Basic design of countdown timer */
+.countdown {
+  width: min(90vw, 600px);
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+/* Design the time view boxes */
+.box {
+  flex-basis: 100%;
+  display: grid;
+  gap: 8px;
+}
+
+/* Design time viewing numbers */
+.box span.num {
+  background-color: white;
+  color: #084e8e;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+/* Design the text to indicate the time */
+.box span.text {
+  font-weight: 600;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1.5px solid white;
+  padding: 10px 1rem;
+  border-radius: 50px;
+}
+a:active, a:hover {
+  background: white;
+  color: ;
+}
